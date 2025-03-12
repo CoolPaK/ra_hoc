@@ -1,0 +1,45 @@
+{
+  "name": "ra_hoc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.1",
+    "luxon": "^3.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.3.4",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "description": "homeworks",
+  "main": "main.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CoolPaK/ra_hoc.git"
+  },
+  "author": "coolpak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoolPaK/ra_hoc/issues"
+  },
+  "homepage": "https://github.com/CoolPaK/ra_hoc#readme"
+}
